@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="web personal" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+   
+    <style>
+
+        .contenedor {
+            max-width: 1000px; /* Establece el ancho máximo */
+            margin: 0 auto; /* Centra el contenedor */
+            /*background-color: #f9f9f9; /* Color de fondo opcional */
+            padding: 20px; /* Espaciado interno */
+            /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); Sombra para darle profundidad */
+        }
+
+        .contenedor1 {
+            display: flex;
+            width: 100%;
+        }
+
+        /* Estilos para el bloque de título */
+        .bloq1 {
+            background-color: #EAE3E2; /* Color de fondo */
+            color: black; /* Color de texto */
+            text-align: start; /* Centrar el texto */
+            padding: 20px; /* Espaciado interno */
+            font-size: 36px; /* Tamaño de fuente */
+            font-family: Arial, sans-serif; /* Fuente */
+            display: flex; /* Utilizamos Flexbox */
+            flex-direction: column; /* Coloca el título y los botones en fila */
+            justify-content: center; /* Distribuye el espacio entre los extremos */
+            align-items: center; /* Centra verticalmente los elementos */
+            width: 100%; /* Asegura que el bloque ocupe todo el ancho de la ventana */
+            box-sizing: border-box; /* Incluye el padding dentro del ancho total */
+        }
+
+
+        .botones {
+            display: flex; /* Botones alineados en la misma línea */
+            gap: 5px; /* Espaciado entre los botones */
+            margin-top: 30px; /* Espacio entre el título y los botones */
+        }
+
+        .botones .activo {
+            background-color: #EAE3E2; /* Color del botón activo */
+            color: white; /* Color del texto */
+        }
+
+        .botones a, .botones button {
+            background-color: white; /* Color de fondo del botón */
+            color: black; /* Color del texto */
+            text-decoration: none; /* Eliminar subrayado del enlace */
+            border: none;
+            padding: 8px 15px;
+            margin: 2px;
+            font-size: 18px;
+            cursor: pointer;
+            border-radius: 5px;
+            border: none;
+            cursor: pointer;
+            display: inline-block;
+            text-align: center;
+            width: 180px; /* Ancho fijo para todos los botones */
+        }
+
+        .botones a:hover, .botones button:hover {
+            background-color: white; /* Color de fondo al pasar el ratón */
+            color: black; /* Color del texto al pasar el ratón */
+        }
+
+
+       /* Estilo para la disposición de imagen y descripción */
+
+        .descripcion {
+            flex: 1;
+            margin-right: 20px;
+        }
+
+        .imagen {
+            flex: 1;
+            text-align: right;
+            margin-top: 45px; /* Añadir margen superior para bajar la imagen */
+        }
+
+        .imagen img {
+            max-width: 100%; /* Asegura que la imagen no exceda el contenedor */
+        }
+
+        body {
+            font-size: 20px; /* Cambia el tamaño según tu preferencia */
+            font-family: Arial, sans-serif; /* Fuente predeterminada */
+            line-height: 1.6; /* Espaciado entre líneas */
+            margin: 20px; /* Añadir márgenes al contenido */
+            text-align: justify; /* Justificar el texto */
+        }
+
+        footer {
+            margin-top: 30px; /* Espacio superior antes del pie */
+            text-align: center; /* Centrar el contenido del pie */
+        }
+        footer a {
+            margin: 0 15px; /* Espacio entre los íconos */
+            color: #000; /* Color de los íconos */
+            text-decoration: none; /* Sin subrayado */
+            font-size: 24px; /* Tamaño de los íconos */
+        }
+
+        .bloq2 {
+            background-color: #EAE3E2; /* Color de fondo */
+            color: black; /* Color de texto */
+            text-align: start; /* Centrar el texto */
+            padding: 5px; /* Espaciado interno */
+            font-size: 10px; /* Tamaño de fuente */
+            font-family: Arial, sans-serif; /* Fuente */
+            display: flex; /* Utilizamos Flexbox */
+            flex-direction: column; /* Coloca el título y los botones en fila */
+            justify-content: center; /* Distribuye el espacio entre los extremos */
+            align-items: center; /* Centra verticalmente los elementos */
+            width: 100%; /* Asegura que el bloque ocupe todo el ancho de la ventana */
+            box-sizing: border-box; /* Incluye el padding dentro del ancho total */
+        }
+
+    </style>
+</head>
+<body>
+    
+    <div class="bloq1">
+            <div class="botones">
+                <a href="index.html" class="activo"><button>Juan C. Orosco</button></a>
+                <a href="research.html"><button>Research</button></a> 
+                <a href="teaching.html"><button>Teaching</button></a>
+                <a href="cv.html"><button>CV</button></a>
+            </div>
+    </div>
+<div class="contenedor">
+<div class="contenedor1">
+    
+        <div class="descripcion">
+            <h2>Welcome to My Personal Website</h2>
+            <p>I am a Ph.D. candidate in Mathematical Engineering at Universidad Carlos III de Madrid (UC3M), currently in my final year. My research, supervised by Professors <a href="https://halweb.uc3m.es/esp/Personal/personas/mhveiga/esp/cv.html" target="_blank" >Helena Veiga</a> and <a href="https://researchportal.uc3m.es/display/inv18615" target="_blank" >Michael Wiper</a>, focuses on stochastic frontiers with an empirical application aimed at improving efficiency and understanding in higher education.</p> 
+
+            <p>Throughout my academic career, I have gained valuable experience as a university lecturer and researcher, which has enriched both my analytical and applied approach.
+
+             Looking ahead, I am seeking postdoctoral opportunities starting in 2025, where I aim to further develop my academic and research career, diving deeper into areas related to optimization and the analysis of educational systems.</p>
+             <p>My research interests are:</p>
+
+            <ul>
+                 <li>Time Series</li>
+                 <li>Data Panel</li>
+                 <li>Stochastic Frontier</li>
+                 <li>Machine Learning</li>
+                 <li>Econometrics Models</li>
+            </ul>
+
+      
+        </div>
+
+             <div class="imagen">
+                    <img src="https://www.dropbox.com/scl/fi/sl39cfcbdzxw9i8o5l0p5/jc.jpg?rlkey=ff6qyxgniknzudr1yjwyujztn&st=afs37yhi&raw=1" alt="me" width="480" height="500">
+             </div>
+    
+</div> 
+</div> 
+
+<div class="bloq2">
+    <footer>
+        <a href="https://www.linkedin.com/in/juancaorosco/" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+        <a href="https://github.com/jcorosco" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+        <a href="https://www.google.es/maps/place/Universidad+Carlos+III+de+Madrid+%7C+Campus+de+Getafe/@40.317377,-3.7290312,17z/data=!3m1!4b1!4m6!3m5!1s0xd4220b90a840de7:0x8bc24e4eab60c842!8m2!3d40.3173729!4d-3.7264563!16s%2Fm%2F0cvhzs3?hl=es&entry=ttu&g_ep=EgoyMDI0MTAwOC4wIKXMDSoASAFQAw%3D%3D" target="_blank" title="Ubicación"><i class="fas fa-map-marker-alt"></i></a>
+    </footer>
+</div>
+
+
+</body>
+</html>
